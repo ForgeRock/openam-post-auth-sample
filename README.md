@@ -1,5 +1,10 @@
 # openam-post-auth-sample
 
+## Warning
+**This code is not supported by ForgeRock and it is your responsibility to verify that the software is suitable and safe for use.**
+
+## About
+
 *An OpenAM Sample Post Authentication Plugin*
 
 For instructions on using this sample authentication
