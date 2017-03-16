@@ -1,5 +1,11 @@
 # openam-post-auth-sample
 
+This is one of the ForgeRock Community Projects.
+For details, see <https://stash.forgerock.org/projects/COM/repos/about-these-projects/browse.>
+
+If you are reading this on GitHub.com, you are viewing an old version of the project.
+
+
 ## Warning
 **This code is not supported by ForgeRock and it is your responsibility to verify that the software is suitable and safe for use.**
 
@@ -7,24 +13,15 @@
 
 *An OpenAM Sample Post Authentication Plugin*
 
-For instructions on using this sample authentication
-module with OpenAM see the chapter,
-*[Creating a Post Authentication Plugin](http://openam.forgerock.org/openam-documentation/openam-doc-source/doc/dev-guide/index/chap-post-auth.html)*,
-in the OpenAM *Developer's Guide*.
+For instructions on using this sample authentication module,
+see <https://backstage.forgerock.com/docs/am/5/authentication-guide#sec-post-auth>.
 
-Before building the sample authentication module, update
-the OpenAM version in the POM to match the version of OpenAM
-that you are using. The line to update is:
-
-    <openam.version>12.0.0-SNAPSHOT</openam.version>
+Before building the sample authentication module,
+update the `<openam.version>` property in the POM to match your OpenAM version.
 
 * * *
-This work is licensed under the Creative Commons
-Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-To view a copy of this license, visit
-<http://creativecommons.org/licenses/by-nc-nd/3.0/>
-or send a letter to Creative Commons, 444 Castro Street,
-Suite 900, Mountain View, California, 94041, USA.
+Copyright 2013-2017 ForgeRock AS. All Rights Reserved
 
-Copyright 2013 ForgeRock AS
-
+Use of this code requires a commercial software license with ForgeRock AS.
+or with one of its affiliates. All use shall be exclusively subject
+to such license between the licensee and ForgeRock AS.

@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+  Copyright 2013-2017 ForgeRock AS. All Rights Reserved
 
-   Copyright (c) 2013 ForgeRock AS. All Rights Reserved
-
-   The contents of this file are subject to the terms
-   of the Common Development and Distribution License
-   (the License). You may not use this file except in
-   compliance with the License.
-
-   You can obtain a copy of the License at
-   http://forgerock.org/license/CDDLv1.0.html
-   See the License for the specific language governing
-   permission and limitations under the License.
-
-   When distributing Covered Code, include this CDDL
-   Header Notice in each file and include the License file
-   at http://forgerock.org/license/CDDLv1.0.html
-   If applicable, add the following below the CDDL Header,
-   with the fields enclosed by brackets [] replaced by
-   your own identifying information:
-   "Portions Copyrighted [year] [name of copyright owner]"
+  Use of this code requires a commercial software license with ForgeRock AS.
+  or with one of its affiliates. All use shall be exclusively subject
+  to such license between the licensee and ForgeRock AS.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -34,18 +18,18 @@
     <packaging>jar</packaging>
 
     <properties>
-        <openam.version>12.0.0-SNAPSHOT</openam.version>
+        <openam.version>14.0.0-SNAPSHOT</openam.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
      <repositories>
         <repository>
-            <id>forgerock-releases</id>
-            <url>http://maven.forgerock.org/repo/releases</url>
+            <id>forgerock-internal-releases</id>
+            <url>https://maven.forgerock.org/repo/internal-releases</url>
         </repository>
         <repository>
-            <id>forgerock-snapshots</id>
-            <url>http://maven.forgerock.org/repo/openam-snapshots</url>
+            <id>forgerock-internal-snapshots</id>
+            <url>https://maven.forgerock.org/repo/internal-snapshots</url>
         </repository>
     </repositories>
 
@@ -75,11 +59,10 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.0</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 </project>
-
