@@ -18,18 +18,14 @@
     <packaging>jar</packaging>
 
     <properties>
-        <openam.version>14.0.0-SNAPSHOT</openam.version>
+        <openam.version>14.0.0</openam.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
      <repositories>
         <repository>
-            <id>forgerock-internal-releases</id>
-            <url>https://maven.forgerock.org/repo/internal-releases</url>
-        </repository>
-        <repository>
-            <id>forgerock-internal-snapshots</id>
-            <url>https://maven.forgerock.org/repo/internal-snapshots</url>
+            <id>forgerock-private-releases</id>
+            <url>https://maven.forgerock.org/repo/private-releases</url>
         </repository>
     </repositories>
 
